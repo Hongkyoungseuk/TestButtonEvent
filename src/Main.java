@@ -1,5 +1,7 @@
 public class Main {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    public static void main(String[] args) {
+        ButtonEventFrame frame = new ButtonEventFrame();
+
+        frame.setVisible(true);
     }
 }
